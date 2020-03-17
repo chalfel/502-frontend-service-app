@@ -1,12 +1,13 @@
 import React from 'react';
-import './App.css';
 
-import Login from './components/Login';
+import GlobalStyle from './styles/global';
+import Routes from './routes'; 
 
-function App() {
+const App = () => {
   return (
     <>
-      <Login />
+      <GlobalStyle />
+      <Routes />
     </>
     );
 }
